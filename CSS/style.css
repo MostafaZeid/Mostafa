@@ -1,0 +1,624 @@
+
+
+
+/*Start navbar*/
+
+body {
+    padding-top: 20px;
+    overflow: hidden;
+
+}
+
+ /*Start section tool box */
+.option-box {
+    position: fixed;
+    top: 120px;
+    left: 0;
+    z-index: 9999;
+}
+.option-box .color-option {
+    float: left;
+    background: #333;
+    color: #ccc;
+    padding: 10px;
+    width: 160px;
+    border: 3px solid #333; 
+    display: none;
+    border-radius: 5% 0 15% 2%  ;
+    border: 1px solid #222;
+}
+.option-box  .color-option  ul li {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 3px;
+    border: 1.3px solid #555;
+    cursor: pointer;
+}
+.option-box  .gear-check {
+    padding: 5px;
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 0% 0 0% 0%  ;
+}
+/*end section tool box*/
+
+
+/*p { font-family: 'Lobster', cursive;}*/
+/********* Start overriding bootstrap *******/
+
+/*Brand*/
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-brand:hover
+{
+    color: #ccc;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 1.2px;    
+}
+
+/*Navegation*/
+
+/*Main navbar*/
+.navbar {
+    min-height: 50px;
+}
+
+/*navbar link*/
+.navbar-inverse .navbar-nav > li > a {
+    color: #ccc;
+    font-size: 17px;
+    font-family: tahoma ;
+    letter-spacing: 1.6px;
+    padding-top: 18px;
+    padding-bottom:18px;
+}
+
+/*Dropdown menu */
+.dropdown-menu {
+    min-width: 200px;
+}
+
+.navbar-right .dropdown-menu {
+    left: 0;
+    right: auto;
+}
+
+.dropdown-menu > li > a {
+    padding: 5px 30px;
+    -webkit-transition:padding 0.5s ease;
+    -o-transition:padding 0.5s ease;
+    -moz-transition:padding 0.5s ease;
+    transition:padding 0.5s ease;
+    font-family:;
+    letter-spacing: 1.2px; 
+    font-size: 16px;
+
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    padding-left: 20px;
+}
+
+.dropdown-menu .divider {
+    margin: 5px 0;
+}
+/*Slider*/
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img
+{ height: 550px;}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.4); 
+    padding-bottom: 30px;
+    right: 25%;
+    left: 25%;
+    top: 37%;
+    bottom: 27%; 
+}
+
+
+.carousel-caption p {
+    margin: 15px 20px;
+    font-family: cursive;
+    font-size: 22px;
+    font-weight: 600;
+
+}
+
+.carousel-caption .btn-danger,
+.carousel-caption .btn-primary {
+     font-size: 16px;
+     border-radius: 30px;
+     padding: 8px 20px;
+}
+.carousel-indicators li.active {
+    width: 20px;
+    height: 11px;
+}
+.carousel-indicators li {
+    width: 15px;
+    height: 7px;
+    margin: 3px;
+}
+.carousel-inner > .item > img {width: 100%;}
+/**Start feature**/
+
+/**Start feature**/
+
+.about {
+    padding: 30px 0;
+}
+
+.about h1 {
+    margin-bottom: 30px;
+}
+
+.about p {
+    margin: 0 50px 20px 50px;
+    font-size: 18px;
+    color: #444;
+    font-family: arial;
+    letter-spacing: 1.2px; 
+}
+
+/**End feature**/
+
+.feature{
+    background: #eee;
+    padding-top: 40px;
+    padding-bottom: 60px; 
+}
+.feature .border {
+    border: 1px solid #ddd;margin:20px 0 ;
+}
+
+.feature h1 {
+    padding-bottom: 40px;
+    letter-spacing: 2.5px;
+    font-family: tahoma,arial;
+}
+.feature h3 { letter-spacing: 1.2px; margin-bottom: 20px; }
+
+.feature .feat p { 
+    line-height: 1.5em;
+    letter-spacing: 1.13px;
+    font-size: 17px;
+    margin-bottom: 40px;  
+}
+
+.feature .feat span.glyphicon {
+   font-size: 24px; 
+} 
+
+/**End feature**/
+
+/**Start Testimonial**/
+
+.testimonial {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #111;
+    height: 320px;
+}
+
+.testimonial h2 {font-weight: bold; margin-bottom: 20px; color: #ccc;}
+
+.testimonial .carousel-indicators {
+    position: static;
+    width: 100%;
+    margin-left: auto;
+    padding-top: 10px;
+}
+.testimonial .carousel-indicators li {
+    text-indent: 0;
+    width: 50px;
+    height: 50px;
+    opacity: 0.5;
+    border-radius: 5px ;
+    overflow: hidden;
+    border: 2px solid #000;
+    -webkit-transition:all 0.7s ease;
+    -o-transition:all 0.7s ease;
+    -moz-transition:all 0.7s ease;
+    transition:all 0.7s ease;
+}
+.testimonial .carousel-indicators li.active{
+    opacity: 1;
+    border: 4px solid #0000;
+    width: 60px;
+    height: 60px;
+}
+
+.testimonial .carousel-indicators li img {
+    width: 100%;
+    height: 100%;    
+}
+
+.testimonial .item span {
+    font-size: 18px;
+    font-weight: bold;
+}
+.testimonial p {line-height: 1.4em; color: #aab;}
+
+/**End  Testimonial**/
+
+/*Start Price Section */
+.price-table {
+    background: #eee;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.price-table h1  {
+    margin-bottom: 40px;
+}
+.price-table .price-box {
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 30px;
+}
+.price-table .price-box h2 {
+    margin: 5px 0 15px ;
+}
+
+.price-table .price-box:hover p {
+    -webkit-transform: scale(1.1, 1.1)rotate(360deg);
+    -moz-transform: scale(1.1, 1.1)rotate(360deg);
+    -ms-transform: scale(1.1, 1.1)rotate(360deg);
+    -o-transform: scale(1.1, 1.1)rotate(360deg);
+    transform: scale(1.1, 1.1)rotate(360deg);
+}
+
+.price-table .price-box p {
+    font-size: 30px;
+    font-weight: bold;
+    color: #666;
+    height: 100px;
+    width: 100px;
+    border-radius: 40%;
+    line-height: 100px;
+    border: 1px solid #fff;
+    background: #f3f3f3;
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -ms-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s;   
+}
+.price-table .price-box ul {
+    line-height: 250%;
+    font-size: 18px;
+}
+.price-table .price-box a {
+    margin-bottom: 5px;}
+/*End Price Section */
+
+/*Start Our Team*/
+.our-team {
+    background: url(../images/background-team.jpg) no-repeat center fixed ;
+    -webkit-background-size: cover ;
+    -moz-background-size: cover ;
+    -o-background-size: cover ;
+    background-size: cover ;
+    min-height: 400px;
+    overflow: hidden;
+}
+
+.our-team .team {
+    background: rgba(20, 0, 25, 0.7);
+    color: #ccc;
+    min-height: 400px;
+    padding-bottom: 20px; 
+}
+
+.our-team .team h2 { 
+    padding-bottom: 30px;
+    color: #bbb; font-weight: bold;
+    font-family: tahoma,arial
+}
+.our-team .team img {
+    margin-bottom: 10px;
+    border: 1px solid #222;
+
+}
+
+.our-team .team h3 {color: #bbb; font-family: cursive; padding-bottom: 15px;}
+
+
+.our-team .team img {
+    width: 70%;
+    height: 70%;  
+}
+
+/*End Our Team*/
+
+/*Start section subscribe */
+.subscribe {
+    padding-top: 40px;
+    padding-bottom: 70px;
+    background: #eee;
+
+}
+.subscribe h1 {
+    color: #888;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.subscribe p {
+    margin-bottom: 30px;
+
+}
+.subscribe button {border-radius: 0;}
+
+.subscribe .btn-danger {
+       border-color:#ccc;
+}
+
+.form-control {
+    border-radius: 0;
+    margin-right: -5px;
+    width: 300px;
+}
+/*End section subscribe */
+
+/*Start Stats */
+.statistics { 
+    background: url('../images/statistics.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover ;
+    -moz-background-size: cover ;
+    -o-background-size: cover ;
+    background-size: cover ;
+
+    min-height: 300px;
+
+}
+.statistics .data { 
+    background-color: rgba(2,2,2,0.8); 
+    color:#858585;
+    min-height: 300px;
+    padding-bottom: 70px;
+    padding-top: 40px;
+}
+
+.statistics h1 {
+    margin-bottom: 40px;
+}
+.statistics .stats {
+    -webkit-transition:all 0.5 ease-in-out;
+    -moz-transition:all 0.5 ease-in-out;
+    -o-transition:all 0.5 ease-in-out;
+    transition:all 0.5 ease-in-out;
+    margin-bottom: 40px;
+
+}
+.statistics .stats:hover {
+    color: #ccc;
+}
+
+.statistics p {
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.statistics span {
+    font-size: 18px;
+}
+/*End Stats */
+
+/*Start Our Skills*/
+.our-skills {
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+
+.our-skills h1 { margin-bottom: 60px; }
+
+.our-skills h3 { font-weight: bold;  margin-top: 0; }
+
+.our-skills .progress { height: 35px; }
+
+.our-skills .progress-bar { 
+    line-height: 35px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+    text-indent: 20px;
+}
+/*End Our Skills*/
+/*Start Contact Us*/
+
+.contact-us {
+    background: url("../images/contact.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover ;
+    -moz-background-size: cover ;
+    -o-background-size: cover ;
+    background-size: cover ;
+    min-height: 300px;
+}
+
+.contact-us h2 {
+    font-size: 40px;
+    text-shadow: 2px 2px 3px #111;
+}
+
+.contact-us .fields {
+    background:rgba(9,9,9,0.8);
+    min-height: 300px;
+    color: #ddd;
+    padding-top: 40px;
+    padding-bottom: 40px;  
+}
+
+.form .form-control {width: 100%;}
+
+.form .bounceInRight .btn-danger {border-color:#333;}
+
+.contact-us p {margin-bottom:40px}
+
+.contact-us textarea {height:108px}
+
+.contact-us input[type="text"],
+
+.contact-us textarea {color:#FFF;border:none; border-radius: 10px;}
+
+/*End Contact Us*/
+
+/*Start our clints*/
+.our-clients {
+    background: #eee;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.our-clients img {
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    -webkit-transition:all 0.8 ease-in-out;
+    -moz-transition:all 0.8 ease-in-out;
+    -o-transition:all 0.8 ease-in-out;
+    transition:all 0.8 ease-in-out;
+}
+.our-clients img:hover {
+    opacity: 1;
+    -webkit-transition:all 0.6s ease-in-out;
+    -moz-transition:all 0.6s ease-in-out;
+    -o-transition:all 0.6s ease-in-out;
+    transition:all 0.6s ease-in-out;
+}
+/*End our clints*/
+
+/*Start footer*/
+.footer {
+    background: #222;
+    color: #aaa;
+    padding-top: 20px;
+    
+}
+.footer a { color: #aaa;}
+
+.footer a:hover {color: #fff}
+
+.footer h3 {
+    letter-spacing: 1px;
+    margin: 30px 0 20px;
+}
+.footer .three-columns {
+    overflow: hidden;
+    
+}
+.footer .three-columns li {
+    width: 33.33333%;
+    float: left;
+    padding: 25px 0;
+}
+
+.footer .social-lists {
+    overflow: hidden;
+    margin: 20px 0 10px;
+}
+.footer .social-lists li {
+    float: left;
+    margin-right: 4px;
+    opacity: 0.6;
+    filter: alpha(opacity=70);
+}
+.footer .social-lists li:hover {
+    opacity: 1;
+    -webkit-transition:all 0.6s ease-in-out;
+    -moz-transition:all 0.6s ease-in-out;
+    -o-transition:all 0.6s ease-in-out;
+    transition:all 0.6s ease-in-out;
+}
+
+.footer .img-thumbnail {
+    background: rgba(0, 0, 0, .2);
+    border: 1px solid #444;
+    margin-bottom: 5px;
+}
+.footer .copyright {
+    background: #111;
+    color: #aaa;
+    padding: 13px 0;
+    margin-top: 20px;
+    font-size: 18px;
+    
+}
+.footer .copyright span {
+    letter-spacing: 1.3px;
+    font-weight: bold;
+    font-family: tahoma
+}
+/*End footer*/
+
+        /**      End overriding bootstrap      **/
+
+/* Start Loading overlay */
+.loading-overlay {
+    background: #222;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;     
+}
+
+.spinner {
+  margin: 300px auto;
+  width: 100px;
+  height:100px;
+  position: relative;
+  text-align: center;
+  -webkit-animation: sk-rotate 2.0s infinite linear;
+  animation: sk-rotate 2.0s infinite linear;
+}
+.dot1, .dot2 {
+  width: 60%;
+  height: 60%;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  background-color: #888;
+  border-radius: 100%;
+  -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+  animation: sk-bounce 2.0s infinite ease-in-out;
+}
+.dot2 {
+  top: auto;
+  bottom: 0;
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+    background: #555;
+}
+@-webkit-keyframes sk-rotate { 100% { -webkit-transform: rotate(360deg) }}
+@keyframes sk-rotate { 100% { transform: rotate(360deg); -webkit-transform: rotate(360deg) }}
+
+@-webkit-keyframes sk-bounce {
+  0%, 100% { -webkit-transform: scale(0.0) }
+  50% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bounce {
+  0%, 100% { 
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 50% { 
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
+}
+
+/* End Loading overlay */
+/********* End overriding bootstrap *******/
+
+
+
+
+

@@ -1,0 +1,35 @@
+/*** Start The Second Color Theme **/
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.dropdown-menu .divider,
+.carousel-indicators li.active ,
+.subscribe .btn-danger,
+.subscribe .btn-danger:focus
+{
+    background-color:#435258;
+}
+
+.navbar-inverse .navbar-brand span,
+.testimonial .item span ,
+.footer .copyright span,
+.glyphicon,
+.footer h3 
+{
+    color:#697a82;
+}
+
+.price-table .price-box:hover p,
+.carousel-text li 
+{ border: 1px solid #697a82;} 
+
+
+.dropdown-menu {
+    border-top: 1.5px solid #697a82;
+}
+.form .form-control {
+    background:rgba(9, 9, 9, .3);
+}
